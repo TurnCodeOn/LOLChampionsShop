@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+* {
+    margin: 0;
+  }
+  .flexDirectionColumn {
+    flex-direction: column;
+  }
+  .displayFlex {
+    display: flex;
+  }
+  .justifyContentCenter {
+    justify-content: center;
+  }
+  .alignContentCenter {
+    align-content: center;
+  }
+  .alignItemsCenter {
+    align-items: center;
+  }
+  .textAlign {
+    text-align: center;
+  }
+  .Shop {
+    width: 600px;
+    height: 600px;
+    background-color: #252849;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .championImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 10px;
+  }
+  .champion {
+    background-color: #2e325c;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .NoScroll::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  tr.champion:hover {
+    background: #202443;
+  }
+  body {
+    background-color: #202443;
+    height: 100vh;
+    color: white;
+    font-family: "Salsa", cursive;
+  }
+  h2 {
+    margin: 10px;
+  }
+  table {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  h1 {
+    margin-top: 40px;
+  }
+  a {
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #00000033;
+  }
+  th > h1 {
+    margin: 0;
+  }
+  @media only screen and (max-width: 600px) {
+    table {
+      width: 100% !important;
+    }
+    .Shop {
+      width: 95%;
+    }
+    .NoScroll {
+      width: 98% !important;
+    }
+  }
