@@ -80,14 +80,6 @@ function extract_and_update_urls($html_file)
     // Set the new title
     $titleTag->nodeValue = $newTitle;
 
-    // $a_tags = $dom->getElementsByTagName('a');
-    // foreach ($a_tags as $a_tag) {
-    //     $path = $a_tag->getAttribute('href');
-    //     if (!empty($path)) {
-    //         $url = make_url($path, $doc_root, $file_dir, $base_url);
-    //         $a_tag->setAttribute('href', $url);
-    //     }
-    // }
 
 
     // Echo the updated HTML
